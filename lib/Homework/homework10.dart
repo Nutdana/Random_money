@@ -25,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
             // ไล่เฉดจากสีแดงไปสีน้ำเงิน
             colors: [
               Colors.white,
-              Colors.blue.shade100,
+              Colors.brown,
             ],
           ),
         ),

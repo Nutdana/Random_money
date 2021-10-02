@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'Homepage.dart';
 
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({Key? key}) : super(key: key);
+class LoginPage1 extends StatefulWidget {
+  const LoginPage1({Key? key}) : super(key: key);
 
   @override
-  _LoginPageState createState() => _LoginPageState();
+  _LoginPage1State createState() => _LoginPage1State();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _LoginPage1State extends State<LoginPage1> {
   String input = '';
 
   @override

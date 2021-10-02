@@ -16,8 +16,13 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('FLUTTER FOOD'),
+      appBar: _subPageIndex == 0
+      ? AppBar(
+        title: Text('FOOD'),
+        backgroundColor: Colors.black,
+      )
+      : AppBar(
+        title: Text('PROFILE'),
         backgroundColor: Colors.black,
       ),
       drawer: Drawer(

@@ -42,9 +42,6 @@ class _random_moneyState extends State<random_money> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('LUCKY BAG'),
-      ),
       body: Stack(
         children: [
           Container(

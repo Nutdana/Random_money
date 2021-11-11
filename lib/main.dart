@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 
-
-
-import 'Projrct Moblie/Random_Money.dart';
-
-
+import 'Projrct_Moblie/Splash.dart';
 
 
 void main() {
@@ -32,7 +28,7 @@ class MyApp extends StatelessWidget {
           bodyText2: TextStyle(fontSize: 14.0),
         ),
       ),
-      home: random_money(),
+      home: splash(),
     );
   }
 }

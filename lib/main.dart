@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/Homework/homepage11.dart';
+
+
+import 'Random Box/Home.dart';
+
+
 
 
 void main() {
@@ -7,35 +11,27 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        fontFamily: GoogleFonts.prompt().fontFamily,
-        primarySwatch: Colors.purple,
-        textTheme: TextTheme(
+        primarySwatch: Colors.blue,
+        textTheme: const TextTheme(
           headline1: TextStyle(
             fontSize: 30.0,
             fontWeight: FontWeight.bold,
+            color: Colors.black,
           ),
           headline6: TextStyle(
-            fontSize: 22.0,
-            //fontWeight: FontWeight.bold,
+            fontSize: 30.0,
+            fontWeight: FontWeight.bold,
           ),
-          bodyText2: TextStyle(
-            fontSize: 14.0,
-          ),
+          bodyText2: TextStyle(fontSize: 14.0),
         ),
       ),
-      //home: LoginPage(),
-      routes: {
-        LoginPage.routeName: (context) => const LoginPage(),
-        HomePage.routeName: (context) => const HomePage(),
-        FoodListPage.routeName: (context) => const FoodListPage(),
-        FoodDetailsPage.routeName: (context) => const FoodDetailsPage(),
-      },
-      initialRoute: LoginPage.routeName,
+      home: random_money(),
     );
   }
 }

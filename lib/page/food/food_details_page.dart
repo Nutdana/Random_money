@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_food/helpers/platform_aware_asset_image.dart';
-import 'package:flutter_food/models/food_item.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:untitled/helpers/platform_aware_asset_image.dart';
+import 'package:untitled/models/food_item.dart';
 
 class FoodDetailsPage extends StatelessWidget {
   static const routeName = '/food_details_page';

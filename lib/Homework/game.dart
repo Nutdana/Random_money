@@ -4,7 +4,7 @@ class Game {
   final int _answer;
   int _totalGuesses = 0;
 
-  Game() : _answer = Random().nextInt(100) + 1 {
+  Game() : _answer = Random().nextInt(5) + 1 {
     print('The answer is: $_answer');
   }
   int get totalGuesses{

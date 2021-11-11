@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_food/helpers/platform_aware_asset_image.dart';
-import 'package:flutter_food/models/food_item.dart';
-import 'package:flutter_food/pages/food/food_details_page.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:untitled/helpers/platform_aware_asset_image.dart';
+import 'package:untitled/models/food_item.dart';
+
+import 'food_details_page.dart';
 
 class FoodListPage extends StatefulWidget {
   static const routeName = '/food_list_page';

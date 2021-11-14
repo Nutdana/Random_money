@@ -83,7 +83,7 @@ class _random_moneyState extends State<random_money> {
                         ElevatedButton(
                           style: ButtonStyle(
                             backgroundColor:
-                            MaterialStateProperty.all(Colors.green),
+                                MaterialStateProperty.all(Colors.green),
                           ),
                           onPressed: () {
                             setState(() {
@@ -108,7 +108,8 @@ class _random_moneyState extends State<random_money> {
                                 text = 'ดีใจด้วยคุณได้เงินรางวัล 400,000 บาท';
                                 _showMaterialDialog(text);
                               } else if (_random == 10) {
-                                text = 'ดีใจด้วยคุณได้เงินรางวัล 100,000,000 บาท';
+                                text =
+                                    'ดีใจด้วยคุณได้เงินรางวัล 100,000,000 บาท';
                                 _showMaterialDialog(text);
                               }
                             });
@@ -118,10 +119,10 @@ class _random_moneyState extends State<random_money> {
                             style: GoogleFonts.allertaStencil(
                                 fontSize: 20, fontWeight: FontWeight.bold),
                           ),
-                        )
+                        ),
                       ],
                     ),
-                  ),
+                  )
                 ],
               ),
             ),
